@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --bg-color: #ffc0cb;
+    --header-color: #FFE9ED;
+    --logo-color: #9B0067;
+    --header-font-color: #6B0F4C;
+    --font-color: #4D0033;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0.5rem;
+    background-color: var(--bg-color);
+    color: var(--header-font-color);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header, section {
+    margin: 2em auto;
+}
+
+header {
+    position: sticky;
+    top: 0.5rem;
+    z-index: 100000;
+    text-align: center;
+    background-color: var(--header-color);
+    border-radius: 2rem;
+    padding: 0.5rem;
+    width:  50%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    line-height: 2.25rem;
+    min-width: 150px;
+    .logo {
+        color: var(--logo-color);
+        font-size: 1.75rem;
+        font-weight: bold;
+    }
+    nav {
+        li {
+            display: inline-block;
+            margin-inline: 0.5rem;
+        }
+
+        a {
+            color: var(--header-font-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            border-radius: 2rem;
+            background-color: hsl(342, 74%, 89%);
+            padding: 0.5rem;
+        }
+    }
+}
+
+main{
+    margin-top: 0.5rem;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{ 
+    font-size: 1.75rem;
+}
+
+section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    min-height: calc(100vh - 170px);
+
+}
+.home {
+    
+    gap: 0.5rem;
+
+    h2 {
+        font-weight: lighter;
+    }
+    button{
+        border: none;
+        border-radius: 2rem;
+        padding: 0.5rem;
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+        color: var(--font-color);
+    }
+}
