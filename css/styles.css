@@ -11,7 +11,8 @@
     --header-font-color: #6B0F4C;
     --font-color: #4D0033;
     --header-hover-color: #f7bfd1;
-    --jump-down-color: #F5A3B1;
+    --jump-down-color: #ffdbe2;
+    --button-hover-color: #F5A3B1;
     --project-card-color: #F5A3B1; 
     --hover-color: #ffdbe2;
 }
@@ -28,9 +29,9 @@ body {
     grid-template-rows: auto 1fr auto;
 }
 
-header, section {
+/* header, section {
     margin: 2em auto;
-}
+} */
 
 header {
     position: sticky;
@@ -95,6 +96,8 @@ section {
 hr{
     border: none;
 }
+
+/* Home Section */ 
 .home {
     flex: 1;
     text-align: center;
@@ -116,10 +119,11 @@ hr{
     } 
 
     a:hover, a:focus{
-        background-color: var(--hover-color);
+        background-color: var(--button-hover-color);
     }
 }
 
+/* Who Am I Section */ 
 .bio {
 
     h2 {
@@ -145,6 +149,7 @@ hr{
     }
 }
 
+/* Project Section */ 
 .projects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -169,3 +174,34 @@ hr{
         background-color: var(--hover-color);
     }
 }
+
+.tools, .meta-text {
+    font-weight: lighter;
+}
+
+/* Experience Section */ 
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    section {
+        margin: 0.5em;
+        min-height: auto;
+        width: 100%;
+    }
+}
+.info-card {
+    align-self: stretch;
+    border: 2px black dotted;
+    list-style-position: inside;
+    margin: 0.5em 4rem 0.5em;
+    padding: 1.25rem;
+    box-sizing: border-box;
+}
+
+.info-card::before{
+    content: '';
+    border-left: 2px black dashed;
+    position: absolute;
+}
+
