@@ -15,6 +15,7 @@
     --button-hover-color: #F5A3B1;
     --project-card-color: #F5A3B1; 
     --hover-color: #ffdbe2;
+    --footer-color: #D7A7B2;
 }
 
 html {
@@ -22,11 +23,12 @@ html {
 }
 body {
     font-family: "Open Sans", sans-serif;
-    margin: 0.5rem;
+    margin: 0;
     background-color: var(--bg-color);
     color: var(--header-font-color);
     display: grid;
     grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
 }
 
 /* header, section {
@@ -97,12 +99,13 @@ p {
 }
 
 section {
-    min-height: calc(100vh - 180px);
+    min-height: calc(100svh - 6rem);
     scroll-margin-top: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 2rem 1rem;
 }
 
 hr{
@@ -139,8 +142,7 @@ hr{
 
 /* About Me Section */ 
 .bio {
-
-
+    margin: 0.5rem;
     p{
         flex: 0 1 34em;
         margin: 0 1.5em;
@@ -227,5 +229,24 @@ hr{
     margin: 1.5em 4rem;
     padding: 1.25rem;
     box-sizing: border-box;
+}
+
+/* Contact Section */
+.contact {
+    min-height: calc(90svh - 7rem);
+}
+/* Footer */
+footer{
+    background-color: var(--footer-color);
+    text-align: center;
+
+     p{ 
+     font-size: 0.875rem;
+    }
+
+    img {
+    width: 70px;
+    height: auto;
+    }
 }
 
