@@ -11,7 +11,7 @@
     --header-font-color: #6B0F4C;
     --font-color: #4D0033;
     --header-hover-color: #f7bfd1;
-    --jump-down-color: #ffdbe2;
+    --button-color: #ffdbe2;
     --button-hover-color: #F5A3B1;
     --project-card-color: #F5A3B1; 
     --hover-color: #ffdbe2;
@@ -124,7 +124,7 @@ hr{
     a {
         display: block;
         text-decoration: none;
-        background-color: var(--jump-down-color);
+        background-color: var(--button-color);
         color: var(--font-color);
         padding: 0.5rem;
         border-radius: 1.5rem;
@@ -164,16 +164,15 @@ hr{
     border: none;
     border-radius: 2rem;
     padding: 0.5rem;
+    color: var(--font-color);
+    text-decoration: none;
+    background-color: var(--button-color);
+    
+}
 
-    a{
-        color: var(--font-color);
-        text-decoration: none;
-    }
-
-    a:hover {
+.resume:hover {
         text-decoration: underline;
     }
-}
 
 /* Project Section */ 
 .projects {
