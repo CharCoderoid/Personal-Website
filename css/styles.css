@@ -120,20 +120,22 @@ hr{
     h2 {
         font-weight: lighter;
     }
-
-    a {
-        display: block;
-        text-decoration: none;
-        background-color: var(--button-color);
-        color: var(--font-color);
-        padding: 0.5rem;
-        border-radius: 1.5rem;
-    } 
-
-    a:hover, a:focus{
-        background-color: var(--button-hover-color);
-    }
 }
+
+.button {
+    display: block;
+    text-decoration: none;
+    background-color: var(--button-color);
+    color: var(--font-color);
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    margin: 1.5rem;
+} 
+
+.button:hover, .button:focus{
+    background-color: var(--button-hover-color);
+}
+
 
 /* About Me Section */ 
 .bio {
@@ -159,20 +161,6 @@ hr{
     }
 }
 
-.resume {
-    margin: 1.5rem;
-    border: none;
-    border-radius: 2rem;
-    padding: 0.5rem;
-    color: var(--font-color);
-    text-decoration: none;
-    background-color: var(--button-color);
-    
-}
-
-.resume:hover {
-        text-decoration: underline;
-    }
 
 /* Project Section */ 
 .projects {
