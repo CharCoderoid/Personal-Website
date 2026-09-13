@@ -135,7 +135,7 @@ hr{
     }
 }
 
-/* Who Am I Section */ 
+/* About Me Section */ 
 .bio {
 
 
@@ -156,6 +156,22 @@ hr{
 
     a {
         color: var(--font-color);
+    }
+}
+
+.resume {
+    margin: 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem;
+
+    a{
+        color: var(--font-color);
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
     }
 }
 
