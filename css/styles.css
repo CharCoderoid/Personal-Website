@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +24,7 @@
     --footer-color: #D7A7B2; 
 }
 
+/* General Styling */
 html {
     scroll-behavior: smooth;
 }
@@ -33,44 +36,6 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
-}
-
-header {
-    position: sticky;
-    top: 0.5rem;
-    z-index: 100000;
-    text-align: center;
-    background-color: var(--header-color);
-    border-radius: 2rem;
-    padding: 0.5rem;
-    width:  50%;
-    margin: 0 auto;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-    line-height: 2.25rem;
-    min-width: 150px;
-    .logo a{
-        color: var(--logo-color);
-        font-size: 1.75rem;
-        font-weight: bold;
-        text-decoration: none;
-    }
-    nav {
-        li {
-            display: inline-block;
-            margin-inline: 0.5rem;
-        }
-
-        a {
-            color: var(--header-font-color);
-            text-decoration: none;
-        }
-
-        a:hover {
-            border-radius: 2rem;
-            background-color: var(--header-hover-color);
-            padding: 0.5rem;
-        }
-    }
 }
 
 main{
@@ -118,6 +83,44 @@ hr{
     height: 70px;
 }
 
+/* Nav Bar */ 
+header {
+    position: sticky;
+    top: 0.5rem;
+    z-index: 100000;
+    text-align: center;
+    background-color: var(--header-color);
+    border-radius: 2rem;
+    padding: 0.5rem;
+    width:  50%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    line-height: 2.25rem;
+    min-width: 150px;
+    .logo a{
+        color: var(--logo-color);
+        font-size: 1.75rem;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    nav {
+        li {
+            display: inline-block;
+            margin-inline: 0.5rem;
+        }
+
+        a {
+            color: var(--header-font-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            border-radius: 2rem;
+            background-color: var(--header-hover-color);
+            padding: 0.5rem;
+        }
+    }
+}
 
 /* Home Section */ 
 .home {
