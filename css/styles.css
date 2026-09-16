@@ -166,6 +166,7 @@ header {
     transform: translateY(-50%);
 }
 
+
 /* About Me Section */ 
 .bio {
     margin: 0.5rem;
@@ -207,8 +208,9 @@ header {
     }
 
     ol {
-        list-style-position: inside;
-        margin-left: 6.5em;
+        list-style-position: outside;
+        margin: 0;
+        padding-left: 1.25rem;
     }
 }
 
@@ -302,6 +304,12 @@ header {
     margin: 1.5em 4rem;
     padding: 1.25rem;
     box-sizing: border-box;
+
+    h3 {
+        word-break: normal;
+        overflow-wrap: normal;
+        hyphens: none;
+    }
     img {
         float: left;
     }
@@ -309,6 +317,8 @@ header {
         color: var(--font-color);
     }
 }
+
+
 
 /* Contact Section */
 .contact {
@@ -326,4 +336,47 @@ footer{
     
 }
 
+@media (max-width: 769px){
+    header {
+        display: none;
+    }
+}
 
+@media (max-width: 600px) {
+    .active {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .active p {
+        display: inline-block;
+        margin: 0 auto;
+        padding-left: 1.75rem;
+        text-align: center;
+    }
+
+    .active p::before {
+        left: 0;
+    }
+
+    .active .availible {
+        display: block;
+    }
+
+
+    .info-card {
+        margin-inline: 1rem;
+    }
+
+    .education-card .edu-heading h4 {
+        text-align: left;
+    }
+}
+
+
+@media (max-width: 425px){
+    .active p{
+        margin: 2rem auto;
+    }
+}
