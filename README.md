@@ -7,10 +7,10 @@ Welcome to my personal website showcasing who I am, my experiences, activities, 
 The design of the website was inspired by a lot of different examples of personal websites since I needed help with setting up the best layout for the website
 
 **Notable Examples**
-* [Maya Nigrin][https://mayanigrin.com/]
-* [Brittany Chiang][https://brittanychiang.com/]
-* [Aaditya Gupta][https://aditya-gupta.com.np/]
-* [Manish Tamang][https://manishtamang.com/]
+* [Maya Nigrin](https://mayanigrin.com/)
+* [Brittany Chiang](https://brittanychiang.com/)
+* [Aaditya Gupta](https://aditya-gupta.com.np/)
+* [Manish Tamang](https://manishtamang.com/)
 
 ##  🛠️  Built With 🛠️
 * **HTML5**
@@ -46,7 +46,7 @@ This site is pure HTML and CSS so no packages nor dependencies are needed
 🤝 *This was my first web design I have ever made so there are definitely lot's of improvements that could be made. Feel free to contribute or suggest improvements to this project! Your feedback is greatly appreciated*
 
 ## 📬 Connect With Me 📬
-* [LinkedIn][https://www.linkedin.com/in/charlotte-kuo/]
+* [LinkedIn](https://www.linkedin.com/in/charlotte-kuo/)
 * Email: charlottekuos@gmail.com
 
 
