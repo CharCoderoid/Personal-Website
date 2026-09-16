@@ -35,11 +35,11 @@ This site is pure HTML and CSS so no packages nor dependencies are needed
    Simply double-click the `index.html` file to launch it instantly in your web browser.
 
 ##  📁 Project Structure 📁
-├── index.html          # HTML styling
+├── index.html          # HTML styling  
 ├── css/
-│   └── styles.css       # Main stylesheet
-├── icons/               # Contains icon images
-├── images/               # Contains images of me 
+│   └── styles.css       # Main stylesheet  
+├── icons/               # Contains icon images  
+├── images/               # Contains images of me   
 
 ## 
 
