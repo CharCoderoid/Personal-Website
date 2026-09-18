@@ -344,11 +344,22 @@ footer{
     h2:not(.home h2, .contact h2) {
         position: sticky;
         top: 0;
-        background-color: var(--header-color);
+        background-color: var(--bg-color);
         margin: 0;
         padding: 0;
-        width: 100vw;
+        align-self: stretch;
+        width: auto;
+        margin-inline: -1rem;
         z-index: 10;
+    }
+
+    .experience .timeline {
+        max-width: none;
+        width: 100%;
+    }
+
+    .timeline-content{
+        margin: 0 2.5rem;
     }
 }
 
@@ -374,9 +385,12 @@ footer{
         display: block;
     }
 
+    
+
 
     .info-card {
         margin-inline: 1rem;
+        margin-left: 2.5rem;
     }
 
     .education-card .edu-heading h4 {
