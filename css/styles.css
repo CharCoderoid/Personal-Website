@@ -340,6 +340,16 @@ footer{
     header {
         display: none;
     }
+
+    h2:not(.home h2, .contact h2) {
+        position: sticky;
+        top: 0;
+        background-color: var(--header-color);
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        z-index: 10;
+    }
 }
 
 @media (max-width: 600px) {
