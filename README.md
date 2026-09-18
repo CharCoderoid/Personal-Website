@@ -36,7 +36,7 @@ This site is pure HTML and CSS so no packages nor dependencies are needed
 
 ##  📁 Project Structure 📁
 ├── index.html          # HTML styling  
-├── css/
+├── css/                                  
 │   └── styles.css       # Main stylesheet  
 ├── icons/               # Contains icon images  
 ├── images/               # Contains images of me   
