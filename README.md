@@ -41,8 +41,11 @@ This site is pure HTML and CSS so no packages nor dependencies are needed
 ├── icons/               # Contains icon images  
 ├── images/               # Contains images of me   
 
-## 
+## 🛠️ Future Updates 🛠️
+* Stylize it more to further reflect my style as I continue to improve my design skills
+* Differentiate the website to cater a variety of skill sets
 
+##
 🤝 *This was my first web design I have ever made so there are definitely lot's of improvements that could be made. Feel free to contribute or suggest improvements to this project! Your feedback is greatly appreciated*
 
 ## 📬 Connect With Me 📬
